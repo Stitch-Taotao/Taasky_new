@@ -22,7 +22,6 @@ class MenuViewController: UITableViewController {
     (navigationController!.parent as! ContainerViewController).menuItem =
         (menuItems[0] as! NSDictionary)
   }
-  
     // MARK: UITableViewDelegate
     override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         

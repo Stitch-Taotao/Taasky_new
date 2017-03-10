@@ -77,7 +77,6 @@ class ContainerViewController: UIViewController,UIScrollViewDelegate {
         let rotateTransform = CATransform3DRotate(identity, CGFloat(angle), 0.0, 1.0, 0.0)
         let translateTransform = CATransform3DMakeTranslation(xOffset, 0.0, 0.0)
         return CATransform3DConcat(rotateTransform, translateTransform)
-        //return rotateTransform
     }
     /*
     // MARK: - Navigation
